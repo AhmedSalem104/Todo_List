@@ -33,13 +33,13 @@
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
-              
             ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
               "entry": "server.ts"
-            }
+            },
+            "baseHref": "https://github.com/AhmedSalem104/Todo_List"
           },
           "configurations": {
             "production": {
