@@ -8,3 +8,9 @@ body {
     font-weight: bolder;
     font-family: var(--main-font);
 }
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('/assets/fonts/fa-solid-900-Z3HFQTXF.woff2') format('woff2');
+  }
+  
